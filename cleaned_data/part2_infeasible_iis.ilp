@@ -1,0 +1,39 @@
+\ Model part2_stage2_piecewise_copy
+\ LP format - for model browsing. Use MPS format to capture full model detail.
+Minimize
+ 
+Subject To
+ desert_threshold_11432: x_621325 + x_732309 + x_619253 + x_180842
+   + x_802828 + x_706169 + x_709666 + x_73869 + x_736585 + x_520851
+   + x_877081 + x_268149 + x_843853 + x_593022 + x_325495 + x_864714
+   + x_916405 + x_883537 + x_906022 + 100 y_30452_small
+   + 200 y_30452_medium + 400 y_30452_large + 100 y_30465_small
+   + 200 y_30465_medium + 400 y_30465_large >= 3633
+Bounds
+ -infinity <= x_621325 <= 90
+ -infinity <= x_732309 <= 47
+ -infinity <= x_619253 <= 42
+ -infinity <= x_180842 <= 42
+ -infinity <= x_802828 <= 32
+ -infinity <= x_706169 <= 26
+ -infinity <= x_709666 <= 23
+ -infinity <= x_73869 <= 12
+ -infinity <= x_736585 <= 4
+ -infinity <= x_520851 <= 4
+ -infinity <= x_877081 <= 4
+ -infinity <= x_268149 <= 4
+ -infinity <= x_843853 <= 4
+ -infinity <= x_593022 <= 4
+ -infinity <= x_325495 <= 4
+ -infinity <= x_864714 <= 4
+ -infinity <= x_916405 <= 4
+ -infinity <= x_883537 <= 4
+ -infinity <= x_906022 <= 4
+Binaries
+ y_30452_small y_30452_medium y_30452_large y_30465_small y_30465_medium
+ y_30465_large
+Generals
+ x_621325 x_732309 x_619253 x_180842 x_802828 x_706169 x_709666 x_73869
+ x_736585 x_520851 x_877081 x_268149 x_843853 x_593022 x_325495 x_864714
+ x_916405 x_883537 x_906022
+End

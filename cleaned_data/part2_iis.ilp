@@ -1,0 +1,70 @@
+\ Model part2_copy
+\ LP format - for model browsing. Use MPS format to capture full model detail.
+Minimize
+ 
+Subject To
+ one_size_23231: y_23231_small + y_23231_medium + y_23231_large <= 1
+ one_size_23258: y_23258_small + y_23258_medium + y_23258_large <= 1
+ one_size_23236: y_23236_small + y_23236_medium + y_23236_large <= 1
+ one_size_23265: y_23265_small + y_23265_medium + y_23265_large <= 1
+ one_size_23263: y_23263_small + y_23263_medium + y_23263_large <= 1
+ one_size_23286: y_23286_small + y_23286_medium + y_23286_large <= 1
+ desert_11208: x_73952 + x_708000 + x_73347 + x_433133 + x_878536
+   + x_894833 + x_673361 + x_805683 + x_102228 + x_682388 + x_890235
+   + x_895259 + x_805682 + x_465242 + x_609487 + x_914409 + x_475786
+   + x_773970 + x_908746 + x_902271 + x_286489 + x_799642 + x_291181
+   + x_766057 + x_871526 + x_810984 + x_818742 + x_500255 + x_434674
+   + x_272911 + 100 y_23231_small + 200 y_23231_medium + 400 y_23231_large
+   + 100 y_23234_small + 200 y_23234_medium + 400 y_23234_large
+   + 100 y_23258_small + 200 y_23258_medium + 400 y_23258_large
+   + 100 y_23273_small + 200 y_23273_medium + 400 y_23273_large
+   + 100 y_23236_small + 200 y_23236_medium + 400 y_23236_large
+   + 100 y_23220_small + 200 y_23220_medium + 400 y_23220_large
+   + 100 y_23265_small + 200 y_23265_medium + 400 y_23265_large
+   + 100 y_23263_small + 200 y_23263_medium + 400 y_23263_large
+   + 100 y_23286_small + 200 y_23286_medium + 400 y_23286_large
+   + 100 y_23294_small + 200 y_23294_medium + 400 y_23294_large >= 6719
+Bounds
+ -infinity <= x_73952 <= 268
+ -infinity <= x_708000 <= 120
+ -infinity <= x_73347 <= 118
+ -infinity <= x_433133 <= 84
+ -infinity <= x_878536 <= 80
+ -infinity <= x_894833 <= 80
+ -infinity <= x_673361 <= 74
+ -infinity <= x_805683 <= 70
+ -infinity <= x_102228 <= 66
+ -infinity <= x_682388 <= 64
+ -infinity <= x_890235 <= 61
+ -infinity <= x_895259 <= 55
+ -infinity <= x_805682 <= 46
+ -infinity <= x_465242 <= 44
+ -infinity <= x_609487 <= 43
+ -infinity <= x_914409 <= 40
+ -infinity <= x_475786 <= 32
+ -infinity <= x_773970 <= 27
+ -infinity <= x_908746 <= 6
+ -infinity <= x_902271 <= 6
+ -infinity <= x_286489 <= 6
+ -infinity <= x_799642 <= 6
+ -infinity <= x_291181 <= 6
+ -infinity <= x_766057 <= 6
+ -infinity <= x_871526 <= 6
+ -infinity <= x_810984 <= 6
+ -infinity <= x_818742 <= 6
+ -infinity <= x_500255 <= 6
+ -infinity <= x_434674 <= 6
+ -infinity <= x_272911 <= 6
+Binaries
+ y_23231_small y_23231_medium y_23231_large y_23234_small y_23234_medium
+ y_23234_large y_23258_small y_23258_medium y_23258_large y_23273_small
+ y_23273_medium y_23273_large y_23236_small y_23236_medium y_23236_large
+ y_23220_small y_23220_medium y_23220_large y_23265_small y_23265_medium
+ y_23265_large y_23263_small y_23263_medium y_23263_large y_23286_small
+ y_23286_medium y_23286_large y_23294_small y_23294_medium y_23294_large
+Generals
+ x_73952 x_708000 x_73347 x_433133 x_878536 x_894833 x_673361 x_805683
+ x_102228 x_682388 x_890235 x_895259 x_805682 x_465242 x_609487 x_914409
+ x_475786 x_773970 x_908746 x_902271 x_286489 x_799642 x_291181 x_766057
+ x_871526 x_810984 x_818742 x_500255 x_434674 x_272911
+End
