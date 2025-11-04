@@ -60,7 +60,3 @@ All cleaned versions are stored in the `cleaned_data/` folder.
 - **Environment:** Jupyter Notebook  
 - **Key Libraries:** `gurobipy`, `pandas`, `numpy`, `matplotlib`
 
-To run locally:
-```bash
-pip install gurobipy pandas numpy matplotlib
-jupyter notebook PART1&PART2.ipynb
